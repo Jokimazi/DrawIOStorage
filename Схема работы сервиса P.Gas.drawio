@@ -4,22 +4,82 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="oXhWG6Ju0qooGjyq5Nin-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oXhWG6Ju0qooGjyq5Nin-2" target="oXhWG6Ju0qooGjyq5Nin-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="384" y="333" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="oXhWG6Ju0qooGjyq5Nin-2" value="REST API сервер Apache (REG.RU)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="302" y="143" width="224" height="190" as="geometry">
             <mxRectangle x="284" y="130" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="oXhWG6Ju0qooGjyq5Nin-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="oXhWG6Ju0qooGjyq5Nin-2" source="oXhWG6Ju0qooGjyq5Nin-4" target="oXhWG6Ju0qooGjyq5Nin-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="oXhWG6Ju0qooGjyq5Nin-4" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;База данных&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;MySQL&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oXhWG6Ju0qooGjyq5Nin-2">
           <mxGeometry x="30" y="38" width="163" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oXhWG6Ju0qooGjyq5Nin-6" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Веб-фреймворк&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Django&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;(Python)&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oXhWG6Ju0qooGjyq5Nin-2">
+        <mxCell id="oXhWG6Ju0qooGjyq5Nin-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="oXhWG6Ju0qooGjyq5Nin-2" source="oXhWG6Ju0qooGjyq5Nin-6" target="oXhWG6Ju0qooGjyq5Nin-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oXhWG6Ju0qooGjyq5Nin-6" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Backend на базе&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Веб-фреймворка&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Django (Python)&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oXhWG6Ju0qooGjyq5Nin-2">
           <mxGeometry x="30" y="114" width="164" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oXhWG6Ju0qooGjyq5Nin-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="oXhWG6Ju0qooGjyq5Nin-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="444" y="334" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oXhWG6Ju0qooGjyq5Nin-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oXhWG6Ju0qooGjyq5Nin-7" target="oXhWG6Ju0qooGjyq5Nin-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oXhWG6Ju0qooGjyq5Nin-7" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;REST API&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="377" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oXhWG6Ju0qooGjyq5Nin-8" value="&lt;div&gt;Desktop&lt;/div&gt;&lt;div&gt;Windows&lt;/div&gt;&lt;div&gt;приложение на платформе WPF&lt;/div&gt;&lt;div&gt;(C#)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="546" width="120" height="85" as="geometry" />
+        <mxCell id="oXhWG6Ju0qooGjyq5Nin-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="oXhWG6Ju0qooGjyq5Nin-8" target="oXhWG6Ju0qooGjyq5Nin-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oXhWG6Ju0qooGjyq5Nin-8" value="&lt;div&gt;Клиентское Desktop&lt;/div&gt;&lt;div&gt;приложение на платформе&lt;/div&gt;&lt;div&gt;WPF .NET&lt;/div&gt;&lt;div&gt;(C#) для Windows&lt;/div&gt;&lt;div&gt;(Клиент)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="486" width="120" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="oXhWG6Ju0qooGjyq5Nin-15" value="Клиент 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="196" y="504" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oXhWG6Ju0qooGjyq5Nin-16" value="&lt;div&gt;Клиент 3&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="509" y="504" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oXhWG6Ju0qooGjyq5Nin-17" value="&lt;div&gt;Клиент 1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="38" y="502" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oXhWG6Ju0qooGjyq5Nin-18" value="&lt;div&gt;Клиент 4&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="664" y="502" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oXhWG6Ju0qooGjyq5Nin-21" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="255" y="496" as="sourcePoint" />
+            <mxPoint x="346" y="434" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oXhWG6Ju0qooGjyq5Nin-23" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="96" y="491" as="sourcePoint" />
+            <mxPoint x="341" y="412" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oXhWG6Ju0qooGjyq5Nin-24" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="484" y="433" as="sourcePoint" />
+            <mxPoint x="568" y="492" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oXhWG6Ju0qooGjyq5Nin-25" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="408" as="sourcePoint" />
+            <mxPoint x="729" y="491" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
